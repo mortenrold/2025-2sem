@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS fjæs</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        /* øverste del af ansigtet */
+        .top {
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+        }
+        .eye {
+            background: white;
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding: 10px;
+        }
+        .pupil {
+            background: black;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        /* nederste del af ansigtet */
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 60px;
+            padding-top: 40px;
+        }
+        .nose {
+            width: 15px;
+            height: 100px;
+            background: white;
+        }
+        .mouth {
+            width: 400px;
+            height: 15px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="eye">
+            <div class="pupil"></div>
+        </div>
+        <div class="eye">
+            <div class="pupil"></div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="nose"></div>
+        <div class="mouth"></div>
+    </div>
+</body>
+</html>
