@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    background: lightgray;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    flex-wrap: wrap;
+}
+.box1 {
+    background: lightcoral;
+    height: 200px;
+    width: 300px;
+}
+.box2 {
+    background: lightblue;
+    height: 200px;
+    width: 300px;
+}
