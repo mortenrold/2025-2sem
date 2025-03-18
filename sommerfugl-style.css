@@ -1,0 +1,19 @@
+/* her definerer jeg nogle variabler */
+:root {
+    --farve: blue;
+    --skrift: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    /* her kalder jeg den variabel, der har farven */
+    color: var(--farve);
+    /* her kalder jeg den variabel, der har skrifttypen */
+    font-family: var(--skrift);
+}
+p {
+    color: var(--farve);
+    font-family: var(--skrift);
+}
+.min-bg {
+    background: cornflowerblue;
+}
