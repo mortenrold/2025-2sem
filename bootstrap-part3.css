@@ -1,0 +1,32 @@
+/* hent Bootstraps grid */
+@import url("bootstrap/css/bootstrap-grid.css");
+
+/* hent Bootstraps ikoner */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* mine styles */
+body {
+    font-family: system-ui;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.knap {
+    background: cornflowerblue;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+}
+.knap:hover {
+    background: rgb(52, 112, 225);
+}
+.bi-instagram {
+    color: white;
+}
+.bi-facebook {
+    color: green;
+    font-size: 2rem;
+}

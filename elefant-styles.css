@@ -1,0 +1,22 @@
+/* her definerer jeg nogle variabler */
+:root {
+    --farve: lightcoral;
+    --skrift: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: var(--farve);
+    /* her kalder jeg på en variabel */
+    font-family: var(--skrift);
+    font-size: 3rem;
+}
+p {
+    color: var(--farve);
+    font-family: var(--skrift);
+    font-size: 1rem;
+}
+.col-12 {
+    /* her tilføjer jeg properties til en eksisterende bootstrap-klasse */
+    background: cornflowerblue;
+    /* her overskriver jeg en værdi, som klassen havde i forvejen */
+    margin-top: 50px;
+}
